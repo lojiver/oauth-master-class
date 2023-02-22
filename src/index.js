@@ -19,11 +19,11 @@ window.onload = () => {
   document.getElementById("suggest").onclick = () => {
     YaAuthSuggest.init(
       {
-        client_id: "437a0355df404932b6dd4d17b76a3c9e",
+        client_id: "4c42d357493f4ca28e5b823d7905f43a",
         response_type: "token",
-        redirect_uri: "https://oauth-master-class.vercel.app/token.html",
+        redirect_uri: "https://oauth-master-class-lake.vercel.app/token.html",
       },
-      "https://oauth-master-class.vercel.app"
+      "https://oauth-master-class-lake.vercel.app"
     )
       .then(({ handler }) => handler())
       .then(async (data) => {
@@ -38,11 +38,11 @@ window.onload = () => {
   document.getElementById("button").onclick = () => {
     window.YaAuthSuggest.init(
       {
-        client_id: "437a0355df404932b6dd4d17b76a3c9e",
+        client_id: "4c42d357493f4ca28e5b823d7905f43a",
         response_type: "token",
-        redirect_uri: "https://oauth-master-class.vercel.app/token.html",
+        redirect_uri: "https://oauth-master-class-lake.vercel.app/token.html",
       },
-      "https://oauth-master-class.vercel.app",
+      "https://oauth-master-class-lake.vercel.app",
       {
         parentId: "buttonContainer",
         view: "button",
